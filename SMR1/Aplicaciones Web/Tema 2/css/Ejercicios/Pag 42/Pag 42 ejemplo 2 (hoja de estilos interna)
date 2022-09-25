@@ -1,0 +1,12 @@
+<!Doctype>
+<html>
+<head>
+	<title>Segunda página con estilos</title>
+<style type="text/css">
+	body {color: purple; background-color: #d8da3d}</style>
+
+</head>
+<body>HOLA MUNDO
+</body>
+
+</html>

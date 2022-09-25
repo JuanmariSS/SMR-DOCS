@@ -1,0 +1,6 @@
+Tenemos dos ficheros por lotes:
+TRES.CMD:
+@ECHO OFF
+CLS
+CUATRO.CMD
+ECHO NO RETORNA DE CUATRO.CMD

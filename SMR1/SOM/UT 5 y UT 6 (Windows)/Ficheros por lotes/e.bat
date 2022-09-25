@@ -1,0 +1,18 @@
+@ECHO OFF
+:INICIO
+TITLE EXISTENCIA DE ARCHIVO
+CLS
+IF EXIST existe.txt GOTO		:REPITE
+
+:REPITE
+ECHO EL ARCHIVO existe.txt se encuentra en este directorio
+@pause
+GOTO	:ELIGE
+
+:ELIGE
+CHOICE /C ab /CS /T 30 /D a /M "Quieres comprobar otra vez [a] SI [b] NO"
+IF ERRORLEVEL 2 GOTO	:SALIDA
+IF ERRORLEVEL 1 GOTO	:INICIO
+PAUSE
+:SALIDA
+EXIT

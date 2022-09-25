@@ -1,0 +1,38 @@
+<!Doctype>
+<html>
+<head>
+	<title>
+		</title>
+			</head>
+<body>
+<form>
+<form method=post action="casi_form_asp">
+<fieldset name="Club de jugadores">
+<legend>
+	<label><input type="checkbox" name="club" checked>Utilizar tarjeta del club</label> 
+</legend>
+<p>
+<label>Nombre de la tarjeta: <input type="text" name="1"></label></fiedlset>
+
+<fieldset>
+	<legend>
+<label>
+			<input type="radio" checked>Mi tarjeta contiene números </label></legend>
+<p>
+<label>Número de la tarjeta:
+<input name=nuemroclub required pattern="[-0-9]+"> </fieldset>
+
+<fieldset name="letfields">
+<legend> <label> <input type=radio name="tipoclub">
+Mi tarjeta contiene letras </label> </legend>
+<p> <label>Código de la tarjeta:
+<input required pattern=[A-Za-z]+"> </label> </p> </fieldset>
+</fieldset>
+<input type="submit" value="enviar">
+</form>
+
+
+
+	</body>
+
+</html>

@@ -1,0 +1,9 @@
+Un avez instalada la plantilla:
+
+Menú de Joomla>Extensiones>Plantillas>Plantilla Hebe
+
+Clic sobre la plantilla
+Clic en la rueda de "configurar"
+Logo>Insertar Imagen
+
+Una vez insertada, le asignaremos un tamaño (90-110).

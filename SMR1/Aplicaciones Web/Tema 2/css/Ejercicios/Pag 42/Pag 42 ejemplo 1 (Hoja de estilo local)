@@ -1,0 +1,12 @@
+<!Doctype>
+<html>
+<head>
+	<title>Primera página con estilos
+</title>
+</head>
+<body>
+<p style="color:green">HOLA MUNDO </p>
+
+</body>
+
+</html>

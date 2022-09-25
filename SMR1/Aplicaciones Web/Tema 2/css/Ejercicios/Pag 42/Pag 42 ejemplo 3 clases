@@ -1,0 +1,14 @@
+<!Doctype>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		.bordeRojo {border:solid 1px #000000; border-color:red;}
+		.bordeAzul {border:solid 1px #000000; border-color:blue;}
+		.letraAzul {color:blue;} </style>
+</head>
+<body>
+<p class="bordeRojo">HOLA</p>
+<p class="letraAzul bordeAzul">HOLA
+</body>
+		</html>

@@ -1,0 +1,3 @@
+Comentarios:
+// Si ocupa menos de una línea
+/* Si ocupa más de dos líneas */

@@ -1,0 +1,36 @@
+<html>
+<head> <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Ejercicio de selectores</title>
+<style type="text/css">
+/* Todos los elementos de la pagina */ { font: 1em/1.3 Arial, Helvetica, sans-serif; }
+/* Todos los parrafos de la pagina */ { color: #555; }
+/* Todos los párrafos contenidos en #primero */ { color: #336699; }
+/* Todos los enlaces la pagina */ { color: #CC3300; }
+/* Los elementos "em" contenidos en #primero */ { background: #FFFFCC; padding: .1em; }/* Todos los elementos "em" de clase "especial" en toda la pagina */ { background: #FFCC99; bord
+er: 1px solid #FF9900; padding: .1em; }
+/* Elementos "span" contenidos en .normal */ { font-weight: bold; }
+span#consecuencia {color: brown}
+p#azul {color: blue}
+em#emm {background-color: yellow}
+a#donec {color: brown}
+em#penati {background-color: orange}
+
+</style>
+</head>
+<body>
+<div id="primero"> <p id="azul">Lorem ipsum dolor sit amet, <a href="https://www.sport.es"><span id="consecuencia">consectetuer adipiscing elit</span></a>.
+Praesent blandit nibh at felis. Sed nec diam in dolor vestibulum aliquet. Duis ullamcorper, nisi non f
+acilisis molestie, <em id="emm">lorem sem aliquam nulla</em>, id lacinia velit mi vestibulum enim.</p>
+</div> <div class="normal"> <p>Phasellus eu velit sed lorem sodales egestas. Ut feugiat. <span><a id="donec"
+href="#">Donec porttitor</a>, <b>magna eu varius luctus</b>,</span> metus massa tristique massa, in impe
+rdiet est velit vel magna. Phasellus erat. Duis risus. <a id="donec" href="#">Maecenas dictum</a>, nibh vitae p
+ellentesque auctor, tellus velit consectetuer tellus, tempor pretium felis tellus at metus.</p> <p>Cu
+m sociis natoque <em class="especial" id="penati">penatibus et magnis</em> dis parturient montes, nascetur ri
+diculus mus. Proin aliquam convallis ante. Pellentesque habitant morbi tristique senectus et netus et
+malesuada fames ac turpis egestas. Nunc aliquet. Sed eu metus. Duis justo.</p> <p>Donec facilisis
+blandit velit. Vestibulum nisi. Proin volutpat, <em class="especial" id="penati">enim id iaculis congue</em>, or
+ci justo ultrices tortor, <a href="#" id="donec">quis lacinia eros libero in eros</a>. Sed malesuada dui vel quam.
+Integer at eros.</p>
+</div>
+</body>
+</html>
